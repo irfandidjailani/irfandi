@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Irfandi Djailani's Personal Website">
+    <title>Irfandi Djailani - Educator, Researcher, Content Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .portfolio img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Irfandi Djailani</h1>
+    <p>Educator | Researcher | Content Creator</p>
+</header>
+
+<nav>
+    <a href="#bio">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#teaching">Teaching & Research</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="bio">
+    <h2>About Me</h2>
+    <p>Hello! I’m Irfandi Djailani, a passionate educator, researcher, and content creator with over 10 years of teaching experience in multiple countries. My journey spans working with NGOs, lecturing, and media production. Currently, I am pursuing my PhD in Social Enterprise at National Central University, Taiwan, focusing on research that bridges academia and practical solutions.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <p>Check out my work:</p>
+        <a href="https://www.youtube.com/digmasolution" target="_blank"><img src="portfolio_thumbnail.jpg" alt="Digma Solution"></a>
+        <p>Teaching Videos: <a href="https://www.bit.ly/IrfandiTeachingVideo" target="_blank">View my lessons</a></p>
+        <p>TV Appearances: <a href="https://www.youtube.com/irfandidjailani" target="_blank">Watch my presentations</a></p>
+    </div>
+</section>
+
+<section id="teaching">
+    <h2>Teaching & Research</h2>
+    <p>I've been actively teaching English, biology, and social studies across different levels. My research in social enterprise at National Central University focuses on creating sustainable solutions for local businesses.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://www.example.com/form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5"></textarea><br><br>
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Irfandi Djailani</p>
+</footer>
+
+</body>
+</html>
